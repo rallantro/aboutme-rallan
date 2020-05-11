@@ -7,11 +7,6 @@
   width: 100vw;
 }
 
-.menu
-{
-  background-color: white;
-}
-
 .menu ul
 {
   display: flex;

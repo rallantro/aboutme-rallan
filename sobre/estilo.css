@@ -5,7 +5,8 @@ body{
 }
 
 .imagem{
-    position: left;
+    position: absolute;
+    left: 100%;
 }
 
 .titulo{

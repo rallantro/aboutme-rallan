@@ -1,0 +1,26 @@
+body{
+    background-color: mediumseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+.titulo{
+    color: tomato;
+}
+
+.reciclaPet{
+    color: greenyellow;
+}
+
+.imagem{
+    position: absolute;
+    left: 75px;
+}

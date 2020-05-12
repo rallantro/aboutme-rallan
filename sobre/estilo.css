@@ -1,11 +1,12 @@
 body{
-    background-color: burlywood;
+    background-color: skyblue;
     font-family: fantasy;
     color: chocolate;
 }
 
 .imagem{
     position: absolute;
+    left: 50%;
 }
 
 .titulo{

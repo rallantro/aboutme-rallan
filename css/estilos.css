@@ -7,11 +7,6 @@
   width: 100vw;
 }
 
-.menu
-{
-  
-}
-
 .menu ul
 {
   display: flex;
@@ -34,13 +29,30 @@ a:hover
   text-decoration: underline;
 }
 
+@media (min-width: 400px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+}
+
 .site-subtitle,.site-title 
 {
   color: darkblue;
   text-align: center;
+
 }
 
+.site-title {
+  font-size: 3em;
+}
 
 .site-subtitle {
   font-style: italic;
+  font-size: 1em;
 }

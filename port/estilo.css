@@ -21,7 +21,9 @@ body{
 }
 
 .imagem1{
-    position: absolute;
-    left: 75px;
     size: auto 680px;
+}
+
+.imagem2{
+    size: auto 570px;
 }

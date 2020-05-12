@@ -24,3 +24,15 @@ body{
 .imagem{
     width: 35%;
 }
+
+@media (min-width: 400px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+}

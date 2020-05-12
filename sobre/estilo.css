@@ -1,0 +1,13 @@
+body{
+    background-color: burlywood;
+    font-family: fantasy;
+    color: chocolate;
+}
+
+.imagem{
+    float: left;
+}
+
+.titulo{
+    color: firebrick;
+}

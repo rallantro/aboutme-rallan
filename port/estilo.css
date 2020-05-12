@@ -20,7 +20,8 @@ body{
     color: rgb(0, 165, 14);
 }
 
-.imagem{
+.imagem1{
     position: absolute;
     left: 75px;
+    size: auto 680px;
 }

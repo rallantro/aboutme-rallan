@@ -59,17 +59,18 @@ header{
 
 .site-subtitle,.site-title 
 {
-  color: darkblue;
   text-align: center;
 
 }
 
 .site-title {
+  color: darkblue;
   font-size: 3em;
   font-family: 'Comfortaa', cursive;
 }
 
 .site-subtitle {
+  color: lightgrey;
   font-style: italic;
   font-size: 1em;
 }

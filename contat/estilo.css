@@ -1,11 +1,12 @@
 body{
     background-color: skyblue;
     color: rgb(160, 119, 52);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Cormorant', serif;
 }
 
 .titulo{
     color: orange;
+    font-family: 'Caveat', cursive;
 }
 
 @media (min-width: 400px) {

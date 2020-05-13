@@ -1,25 +1,21 @@
 body{
     background-color: skyblue;
-    font-family: fantasy;
+    font-family: 'Baloo 2', cursive;
     color: chocolate;
 }
 
+.grid{
+    grid-template-columns: auto auto;
+    display: grid;
+}
+
 .imagem{
-    position: absolute;
+    text-align: left;
+    border-radius: 10%;
+    padding: 3em;
 }
 
 .titulo{
     color: firebrick;
-}
-
-@media (min-width: 400px) {
-  body {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 600px) {
-  body {
-    font-size: 18px;
-  }
+    font-family: 'Pangolin', cursive;
 }

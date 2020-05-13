@@ -25,9 +25,37 @@ h2{
     color: black;
 }
 
+.reciclaPet .grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+@media (min-width: 400px) {
+    .reciclaPet .grid{
+        grid-template-columns: auto;
+    }
+}
+
+@media (min-width: 600px) {
+    .reciclaPet .grid{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .reciclaPet .grid{
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+.LED .grid{
+    display: grid;
+    grid-template-columns: 528.98px 644px;
+}
 
 .imagem{
-    width: 35%;
+    width: 35vh;
+    padding: 0.4em;
 }
 
 @media (min-width: 400px) {

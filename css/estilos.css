@@ -38,12 +38,12 @@ header{
   padding: 10px;
   text-decoration: none;
   font-family: 'Oleo Script', cursive;
-  transition: text-shadow, color, 1s;
+  transition: text-shadow, color, 0.8s;
 }
 
 .menu a:hover
 {
-  text-shadow: 0px 0px 10px rgb(253, 253, 106);
+  text-shadow: 0px 0px 20px rgb(253, 253, 106);
   text-decoration: underline;
 }
 

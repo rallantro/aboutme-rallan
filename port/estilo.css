@@ -30,7 +30,7 @@ h2{
     grid-template-columns: auto auto;
 }
 
-.imagen1{
+.imagens1{
     transform: scale(0.2) translateY(50vh);
     opacity: 0; 
     animation: 2s linear 0.5s imagensOpen forwards;

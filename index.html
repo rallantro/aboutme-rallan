@@ -1,25 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ronaldo Allan</title>
-    <link rel="stylesheet" href="css/estilos.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Nova+Mono&family=Oleo+Script&family=Short+Stack&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <nav class="menu">
-            <ul>
-                <li><a href="sobre">Sobre</a></li>
-                <li><a href="port">Portfólio</a></li>
-                <li><a href="contat">Contato</a></li>
-            </ul>
-        </nav>
-        <div class="titulos">
-            <h1 class="site-title">Ronaldo Allan Vital</h1>
-            <h2 class="site-subtitle">jr. frontend developer</h2>
-        </div>
-    </header>
-</body>
-</html>
+body
+{
+  background-image: url('data:image/jpeg;base64,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');
+  background-size: 100vw 100vh;
+  font-family: 'Nova Mono', monospace;
+  height: 100vh;
+  width: 100vw;
+}
+
+header{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.menu ul
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li
+{
+  list-style: none; 
+}
+
+.menu a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Oleo Script', cursive;
+  transition: text-shadow, color, 1s;
+}
+
+.menu a:hover
+{
+  text-shadow: 0px 0px 10px rgb(253, 253, 106);
+  text-decoration: underline;
+}
+
+@media (min-width: 400px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+.titulos{
+  transform: scale(0.2) translateY(50vh);
+  opacity: 0; 
+  animation: 2s linear 0.5s tituloOpen forwards;
+}
+
+@keyframes tituloOpen{ 
+  0%{
+    transform: scale(0.2) translateY(50vh);
+    opacity: 0; 
+  }
+  100%{
+    transform: scale(1) translateY(0);
+    opacity: 1;  
+  }
+}
+
+.site-subtitle,.site-title 
+{
+  text-align: center;
+
+}
+
+.site-title {
+  color: darkblue;
+  font-size: 3em;
+  font-family: 'Comfortaa', cursive;
+}
+
+.site-subtitle {
+  color: lightgrey;
+  font-style: italic;
+  font-size: 1em;
+}

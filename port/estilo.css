@@ -31,7 +31,6 @@ h2{
 }
 
 .imagens1{
-    transform: scale(0.2) translateY(50vh);
     opacity: 0; 
     animation: 2s linear 0.5s imagensOpen forwards;
   }
@@ -46,6 +45,14 @@ h2{
       opacity: 1;  
     }
   }
+
+.imagem{
+    transition: transform 900ms;
+}
+
+.imagem:hover{
+    transform: scale(2.5) rotate(-1.3deg);
+}
 
 @media (min-width: 400px) {
     .reciclaPet .grid{

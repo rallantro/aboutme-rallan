@@ -30,6 +30,23 @@ h2{
     grid-template-columns: auto auto;
 }
 
+.imagen1{
+    transform: scale(0.2) translateY(50vh);
+    opacity: 0; 
+    animation: 2s linear 0.5s imagensOpen forwards;
+  }
+  
+  @keyframes imagensOpen{ 
+    0%{
+      transform: scale(0.2) translateY(50vh);
+      opacity: 0; 
+    }
+    100%{
+      transform: scale(1) translateY(0);
+      opacity: 1;  
+    }
+  }
+
 @media (min-width: 400px) {
     .reciclaPet .grid{
         grid-template-columns: auto;

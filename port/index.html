@@ -1,96 +1,53 @@
-body{
-    background-color: rgb(151, 191, 252);
-    font-family: 'Ubuntu Mono', monospace;
-    color: black;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1> Potifólio </h1> 
+    
+    <div >
+        <h2 class="titulo">Links:</h2>
+        <ul> 
+            <li> <a href="https://codepen.io/Rallanvita" class="links" > CodePen </a> </li>
+            <li> <a href="https://github.com/rallantro"  class="links"> GitHub </a> </li>
+            <li> <a href="https://rallantro.github.io/desafiopaulo/"  class="links"> Desafio do Paulo </a> </li>
+        </ul>
+    </div>
 
-.links{
-    text-decoration: none;
-}
+    <div class="reciclaPet">
+        <div class="grid">
+            <figure class="texto1">
+                <h2> ReciclaPet: A horta Inteligente - Medalha de Ouro </h2>
+                <p> ReciclaPet: A horta Inteligente é um projeto que foi submetido para a AcelorMittal, meio-ambiente, onde ganhamos a medalha de ouro no estado de São Paulo e o 3° Lugar no Brasil.</p>
+                <p> O Projeto consistia em uma horta vertical integrada a um filto que filtava a água da chuva, cujo a irrigação era controlada por uma arduino.</p>
+                <p> Neste projeto eu fiquei respnsável pela programação da arduino e toda a parte de eletrônica.</p>
+            </figure>       
+            <figure class="imagens1">
+                <img src="medalha.jpg" class="imagem">
+                <img src="apresentacao.jpg" class="imagem">
+                <img src="grupotodo.jpg" class="imagem">
+                <img src="plantas.jpg" class="imagem">
+                <img src="quase.jpg" class="imagem">
+            </figure>
+        </div>
+    </div>
 
-.links:hover{
-    text-decoration: underline;
-}
-
-.titulo{
-    color: rgb(70, 16, 16);
-    font-family: 'Indie Flower', cursive;
-}
-
-h2{
-    font-family: 'Lobster', cursive;
-}
-
-.reciclaPet{
-    color: black;
-}
-
-.reciclaPet .grid{
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.imagens1{
-    opacity: 0; 
-    animation: 2s linear 0.5s imagensOpen forwards;
-  }
-  
-  @keyframes imagensOpen{ 
-    0%{
-      transform: scale(0.2) translateY(50vh);
-      opacity: 0; 
-    }
-    100%{
-      transform: scale(1) translateY(0);
-      opacity: 1;  
-    }
-  }
-
-.imagem{
-    border-radius: 50%;
-    transition: transform 1.3s;
-}
-
-.imagem:hover{
-    transform: scale(2.5) rotate(-1.3deg);
-}
-
-@media (min-width: 400px) {
-    .reciclaPet .grid{
-        grid-template-columns: auto;
-    }
-}
-
-@media (min-width: 600px) {
-    .reciclaPet .grid{
-        grid-template-columns: auto auto;
-    }
-}
-
-@media (min-width: 1200px) {
-    .reciclaPet .grid{
-        grid-template-columns: repeat(3, auto);
-    }
-}
-
-.LED .grid{
-    display: grid;
-    grid-template-columns: 528.98px 644px;
-}
-
-.imagem{
-    width: 35vh;
-    padding: 0.4em;
-}
-
-@media (min-width: 400px) {
-  body {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 600px) {
-  body {
-    font-size: 18px;
-  }
-}
+    <div class="LED">
+        <div class="grid">
+            <div class="texto2">
+                <h2> Projeto LED Bluetooth</h2>
+                <p> Este projeto eu submeti, como projeto final para o curso de programação física, onde uma arduino estava conectada a um  led e um módulo HC-05, que permitia que ele se conectasse via bluetooth a um celular, que, através de um aplicatvo, bem simples, desenvolvido por mim, ultilisando o appInventor2.</p>
+            </div>
+            <div class="imagens2">
+                <img src="arduino.jpg" class="imagem">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

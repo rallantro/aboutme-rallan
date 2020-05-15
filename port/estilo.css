@@ -47,7 +47,7 @@ h2{
   }
 
 .imagem{
-    border-radius: 50%;
+    border-radius: 10%;
     transition: transform 1.3s;
 }
 

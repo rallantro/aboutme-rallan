@@ -47,7 +47,8 @@ h2{
   }
 
 .imagem{
-    transition: transform 900ms;
+    border-radius: 50%;
+    transition: transform 1.3s;
 }
 
 .imagem:hover{
